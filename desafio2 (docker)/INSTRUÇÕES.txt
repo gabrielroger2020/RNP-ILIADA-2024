@@ -1,0 +1,14 @@
+1 - Pelo terminal navegue até a pasta ARQUIVOS e rode o seguinte comando: "docker build -t desafio .".
+2 (Linux/Ubuntu) - Em seguida execute o seguinte comando: "docker run --rm -v $(pwd):/app/output desafio".
+2 (Windows/CMD) - Em seguida execute o seguinte comando: "docker run --rm -v %cd%:/app/output desafio".
+2 (Windows/Poweshell) - Em seguida execute o seguinte comando: "docker run --rm -v ${PWD}:/app/output desafio".
+
+Pronto, seguindo esses passos a imagem gerada com a flag irá aparecer na pasta onde você executou esses comandos.
+
+Estou disponibilizando na pasta "arquivos" todos os arquivos brutos que utilizei para conseguir realizar esse desafio, caso queira realizar uma auditoria será mais fácil. Agradeço a oportunidade.
+
+Flag encontrada: grupocpq-fAJMAPAq5VK7
+
+Aluno: Gabriel Roger Santos de Oliveira (a2370476)
+
+Sistema operacional usado para o desenvolvimento desse desafio: Ubuntu LTS
